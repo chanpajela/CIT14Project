@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Products</title>
+<link href="../../Documents/ComputechStyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="under">
+<div id="header">
+	<a href="Computechs.html"><img src="Logo.png" width="216" height="55" alt="" id="logo"/></a>
+	<input type="text" placeholder="search" id="search-bar"/>
+	<a href="Products.html"><img src="header2_01.png" width="100" height="63" alt=""/ id="products"></a>
+	<a href="Gallery.html"><img src="header2_02.png" width="100" height="63" alt=""/ id="newspromos"></a>
+	<a href="Contact Us.html"><img src="header2_03.png" width="100" height="63" alt=""/ id="wtbuy"></a>
+	</div>
+	<div id="divide"></div>
+	<div id="prods">
+	<div id="Keyboards">
+		<table id="keyb">
+			<tr >
+				<th colspan="7">
+				KEYBOARDS
+				</th>
+			</tr>
+			<tr>
+			<tr>
+			</tr>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			  Interceptor DS4100
+			</th>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			  Corsair K95 RGB Platinum
+			</th>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			  Razer Cynosa Chroma
+			</th>
+			<td id="th1">
+			</td>
+		</tr>
+		<tr height="300px">
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="key1.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="key2.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="key3.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+		</tr>
+			<tr>
+				<td id="th1">
+				</td>
+				<td>
+				Extra Slim and Light Design<br>
+				Integrated Wrist Rest Design<br>
+				Multimedia Hotkeys<br>
+				19-Key Rollover<br>
+				7 Colors Backlighting<br>
+				Braided Wire and Gold-plated Connector
+				</td>
+				<td id="th1">
+				</td>
+				<td>
+				Dynamic multicolor per key backlighting with light edge: Adjust each key's color and illumination level in addition to 19 zones on the top edge light bar for sophisticated and dramatic animations
+				</td>
+				<td id="th1">
+				</td>
+				<td>
+				Ultimate Personalization & Gaming Immersion with Razer Chroma: Fully syncs with popular games, Razer hardware, Philips Hue, and gear from 30+ partners; supports 16.8 million colors on individually backlit keys
+				</td>
+				<td id="th1">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<br>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<div id="Headphones">
+		<table>
+			<tr >
+				<th colspan="7">
+				HEADPHONES
+				</th>
+			</tr>
+		<tr>
+			<tr>
+			</tr>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			  Razer Blackshark V2
+			</th>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			Astro Gaming A40 TR + MixAmp Pro TR
+			</th>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			Logitech G Pro X
+			</th>
+			<td id="th1">
+			</td>
+		</tr>
+		<tr height="300px">
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="hp1.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="HP2.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="hp3.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+		</tr>
+			<tr>
+				<td id="th1">
+				</td>
+				<td>
+				The wired Razer Blackshark V2 gaming headset offers excellent audio and microphone quality, loads of software features and options, and a light, comfortable fit.
+				</td>
+				<td id="th1">
+				</td>
+				<td>
+				Astro Gaming's A40 TR headset with MixAmp Pro TR is a high-quality wired gaming headset/amp combination that provides a very comfortable fit and excellent audio for a premium price.
+				</td>
+				<td id="th1">
+				</td>
+				<td>
+				The Logitech G Pro X wired gaming headset combines a sturdy, comfortable design with a USB sound card loaded with customizable headphone and microphone settings.
+				</td>
+				<td id="th1">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<br>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<div id="Mouses">
+		<table>
+			<tr >
+				<th colspan="7">
+				MOUSES
+				</th>
+			</tr>
+		<tr>
+			<tr>
+			</tr>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			  Razer Basilisk Ultimate
+			</th>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			  Glorious PC Gaming Race Model D
+			</th>
+			<td id="th1">
+			</td>
+			<th height="10px" width="400px">
+			  Mad Catz R.A.T. 8+
+			</th>
+			<td id="th1">
+			</td>
+		</tr>
+		<tr height="300px">
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="m1.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="m2.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+			<td height="300px" width="400px">
+				<img src="m3.png" height="400px">
+			</td>
+			<td id="th1">
+			</td>
+		</tr>
+			<tr>
+				<td id="th1">
+				</td>
+				<td>
+				The Razer Basilisk Ultimate is a killer, all-purpose wireless gaming mouse for serious PC gamers driven to pull out all the stops.
+				</td>
+				<td id="th1">
+				</td>
+				<td>
+				Glorious makes discrete but similar configuration programs for both of its mice. The Model D app has a simple one-window design that makes it easy to find every function you might need, including remapping keys, creating macros, changing DPI settings, and tweaking lighting.
+				</td>
+				<td id="th1">
+				</td>
+				<td>
+				The R.A.T. 8+, Mad Catz's high-end wired gaming mouse, defies design conventions for its kind. It has customizable dials, as well as adjustable parts that you need tools to tune. Its exposed parts and boxy design look more like something out of a 1980s cyberpunk novel than a mouse from 2019, but it manages to make these unusual traits feel and look good.
+				</td>
+				<td id="th1">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<br>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
