@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Computechs</title>
+<link href="ComputechStyles.css" rel="stylesheet" type="text/css">
+</head>
+<body id="main">
+<div id="header">
+	<a href="Computechs.html"><img src="Logo.png" width="216" height="55" alt="" id="logo"/></a>
+	<input type="text" placeholder="search" id="search-bar"/>
+	<a href="Products.html"><img src="header2_01.png" width="100" height="63" alt=""/ id="products"></a>
+	<a href="Gallery.html"><img src="header2_02.png" width="100" height="63" alt=""/ id="newspromos"></a>
+	<a href="Contact Us.html"><img src="header2_03.png" width="100" height="63" alt=""/ id="wtbuy"></a>
+	</div>
+	<div id="divide">
+	</div>
+	<div id="ads">
+	  	<img class="gallery" src="ad1.jpg" style="100%" alt=""/ id="item1">
+		<img class="gallery" src="ad2.jpg" style="100%" alt=""/ id="item1">
+		<img class="gallery" src="ad3.jpg" style="100%" alt=""/ id="item1">
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("gallery");
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 2000);
+		}
+          </script>
+		<p><center><font color="#FFFFFF">PRODUCTS</font></center></p>
+
+		<a href="Products.html"><img src="mouse.png" id="image1"></a>
+	<a href="Products.html"><img src="earphones.png" id="image2"></a>
+	<a href="Products.html"><img src="keyboard.png" id="image3"></a>
+	
+</div>
+</body>
+</html>

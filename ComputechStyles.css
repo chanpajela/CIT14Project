@@ -1,0 +1,481 @@
+@charset "utf-8";
+th{
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.30), 0 1px 10px 0 rgba(0,0,0,0.30);
+}
+th, td {
+  text-align: center;    
+}
+#th1{
+	width: 5px;
+}
+.w3-table{
+	float: left;
+}
+.navbar{
+	background:none;
+	position: fixed;	
+	margin-top: 80px;
+	padding: 0px 0px 0 15px;
+	width: 30%;
+	z-index: 99;	
+	}
+	ul{		 
+		display:inline-grid;	
+		padding:0;
+		list-style: none;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.30), 0 2px 10px 0 rgba(0,0,0,0.30);
+	}
+	ul li{
+		font: 12px/15px sans-serif;
+		display: grid;
+		position: related;
+		padding:0px;
+		background: rgba(0, 0, 128, 0.8);
+
+	}
+	ul li a{
+		text-decoration: none;
+		padding: 12px 8px;
+		color: #DDFED1;
+		font-size: 18px;
+		border-radius: 0px 0px 12px 12px;
+	}
+	ul li:hover{
+		background: #8470FF;
+		opacity: 2;
+	}
+	ul li ul{
+		padding: 0;
+		position: absolute;
+		top:95px;
+		left:133.5px;
+		display: none;
+		visibility:hidden;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26), 0 2px 10px 0 rgba(0,0,0,0.22);
+	}
+	ul li:hover ul{
+		display: inline-grid;
+		opacity: 2;
+		visibility: visible;
+	}
+#Keyboards{
+	background:none;
+	position:relative;	
+	margin-top: 20px;
+	padding: 0px 0px 0px 150px;
+	width: 50%;
+	margin-bottom: 25px;
+}
+#ads{
+	position: absolute;
+	background-color: #373a40;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+#logo {
+    position: relative;
+    left: 2%;
+    padding-top: 0px;
+}
+#main {
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+    margin: 0;
+	height: inherit;
+	overflow-y: hidden;
+}
+#under {
+	background-image: url("../Desktop/HTML/bg.jpg");
+	background-repeat: no-repeat;
+    margin: 0;
+	height: inherit;
+	overflow-y: scroll;
+}
+#gallery{
+	background-color: #fff0f0;
+	width: 100%;
+	height: auto;
+	margin-top: 80px;
+	position: absolute;
+}
+#contactus{
+	background-color: ##f2f2f2;
+	width: 100%;
+	height: 100%;
+	margin-top: 90px;
+	position: absolute;
+}
+#header  {
+    background-color: #132743;
+	position: fixed;	
+	margin-top: 0px;
+	width: 100%;
+	z-index: 99;
+}
+#contact {
+    position: relative;
+	left: 50%;
+    right: 0px;
+	top: 0%;
+	bottom: .7vh;
+}
+#search-bar{
+    position: absolute;
+    left: 30%;
+	top: 2vh;
+	height: 35px;
+	width: 500px;
+}
+#products {
+	position: relative;
+    left: 63%;
+}
+#newspromos {
+	position: relative;
+    left: 63%;
+}
+#wtbuy {	
+	position: relative;
+    left: 63%;
+}
+#item1{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    width: 1170px;
+    height: 390px;
+}
+#image1{
+	position: relative;
+	left: 28%;
+    margin: auto;
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+}
+#image2{
+	position: relative;
+    margin: auto;
+	left: 28%;
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+}
+#image3	{
+	position: relative;
+	left: 28%;
+    margin: auto;
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+}
+#prods{
+	background-color: #fff0f0;
+	width: 100%;
+	height:auto;
+	margin-top: 80px;
+	position: absolute;
+}
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg6 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg7 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImg8 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg1:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 0.7;}
+#myImg4:hover {opacity: 0.7;}
+#myImg5:hover {opacity: 0.7;}
+#myImg6:hover {opacity: 0.7;}
+#myImg7:hover {opacity: 0.7;}
+#myImg8:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	overflow: hidden;
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+	
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 80px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+	z-index: 999;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+	margin-left: 85px;
+	}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+  max-width: 600px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 80px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
